@@ -45,6 +45,11 @@ try prophecy.Box(allocator, children, .{
 
 ### Reactivity
 
+> [!WARNING]
+> Prophecy is currently in an experimental phase. Core APIs are subject to significant changes.
+>
+> The current signal implementation is technically not a "true" reactive signal with automatic dependency tracking. Expect this system to be refactored in future updates.
+
 ```zig
 // We use signals to manage state.
 // Signals notify their listeners automatically when changed.
