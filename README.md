@@ -85,4 +85,4 @@ const MyButton = struct {
 
 ## License
 
-Mova is distributed under the terms of [MIT License](./LICENSE).
+Prophecy is distributed under the terms of [MIT License](./LICENSE).
